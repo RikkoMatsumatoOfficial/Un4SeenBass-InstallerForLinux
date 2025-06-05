@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo clear
-cp libbass.so /home/ikop/libbass
-echo "/home/ikop/libbass" > freeverb.conf
+cp libbass.so /usr/local/lib
+echo "/usr/local/lib" > freeverb.conf
 sudo cp freeverb.conf /etc/ld.so.conf.d
 sudo ldconfig
 rm freeverb.conf
